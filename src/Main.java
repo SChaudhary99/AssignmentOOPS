@@ -31,11 +31,9 @@ public class Main {
                                             timItem[i] = new Mugs();
                                             System.out.println(timItem[i].toString());
                                             do {
-
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new Mugs();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -53,7 +51,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new CoffeePowder();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -71,7 +68,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new GiftCards();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -88,7 +84,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new HockeyCards();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -119,7 +114,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new Donut();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -136,7 +130,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new Bagel();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -153,7 +146,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new Coffee();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2>= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -170,7 +162,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new Wrap();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -187,7 +178,6 @@ public class Main {
                                                 System.out.println("  1. Order This\n  2. Choose Again");
                                                 choice2 = sc.nextInt();
                                                 if (choice2 == 1) {
-                                                    timItem[i] = new Sandwich();
                                                     counter++;
                                                 } else if(choice2<=0 || choice2 >= 3){
                                                     System.out.println("Please provide correct Option.");
@@ -247,4 +237,5 @@ public class Main {
         System.out.print("$\n"+ "Proceeding Payment");
 
     }
+
 }
