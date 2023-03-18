@@ -18,6 +18,6 @@ public class GiftCards implements TimsMerchandise {
 
     @Override
     public String toString() {
-        return "Feature: "+getFeature()+"\nPrice: "+getPrice()+"$";
+        return "Name :"+getName()+"\nFeature: "+getFeature()+"\nPrice: "+getPrice()+"$";
     }
 }

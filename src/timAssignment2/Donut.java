@@ -18,6 +18,6 @@ public class Donut implements TimsConsumables {
 
     @Override
     public String toString() {
-        return "Calories: "+getCalories()+"\nPrice: "+getPrice()+"$";
+        return "Name :"+getName()+"\nCalories: "+getCalories()+"\nPrice: "+getPrice()+"$";
     }
 }
